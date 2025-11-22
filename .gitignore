@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Package folders
+site-packages/
+
+# IDE
+.vscode/
+.idea/
+
+# macOS / Windows junk
+.DS_Store
+Thumbs.db
+myenv/
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
