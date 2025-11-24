@@ -1,0 +1,27 @@
+{
+  "intents": [
+    {
+      "intent": "greet",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening"],
+      "responses": ["Hello! How can I help you today?", "Hi there! What can I do for you?"]
+    },
+    {
+      "intent": "goodbye",
+      "patterns": ["bye", "goodbye", "see you later", "see ya"],
+      "responses": ["Goodbye! Have a great day.", "See you later!"]
+    },
+    {
+      "intent": "ask_gst",
+      "patterns": [
+        "what is gst",
+        "explain gst",
+        "tell me about gst filing",
+        "how does gst work"
+      ],
+      "responses": [
+        "GST stands for Goods and Services Tax. It's an indirect tax on the supply of goods and services in India.",
+        "GST is a destination-based tax applied on the value added at each stage of the supply chain."
+      ]
+    }
+  ]
+}
