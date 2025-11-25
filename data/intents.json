@@ -1,26 +1,185 @@
 {
   "intents": [
     {
-      "intent": "greet",
-      "patterns": ["hi", "hello", "hey", "good morning", "good evening"],
-      "responses": ["Hello! How can I help you today?", "Hi there! What can I do for you?"]
-    },
-    {
-      "intent": "goodbye",
-      "patterns": ["bye", "goodbye", "see you later", "see ya"],
-      "responses": ["Goodbye! Have a great day.", "See you later!"]
-    },
-    {
-      "intent": "ask_gst",
+      "intent": "definition",
       "patterns": [
-        "what is gst",
-        "explain gst",
-        "tell me about gst filing",
-        "how does gst work"
+        "what is machine learning",
+        "define photosynthesis",
+        "what is democracy",
+        "give the definition of velocity",
+        "what does inertia mean"
       ],
       "responses": [
-        "GST stands for Goods and Services Tax. It's an indirect tax on the supply of goods and services in India.",
-        "GST is a destination-based tax applied on the value added at each stage of the supply chain."
+        "Here is the definition:",
+        "Let me define it clearly:"
+      ]
+    },
+    {
+      "intent": "explanation",
+      "patterns": [
+        "explain gravity",
+        "explain machine learning",
+        "why does rain happen",
+        "explain the greenhouse effect",
+        "why do we need algorithms"
+      ],
+      "responses": [
+        "Here is a detailed explanation:",
+        "Let me explain that:"
+      ]
+    },
+    {
+      "intent": "example",
+      "patterns": [
+        "give an example of os",
+        "show an example of an algorithm",
+        "example of renewable energy",
+        "example for chemical reaction",
+        "can you give an example of ai"
+      ],
+      "responses": [
+        "Here is an example:",
+        "Let me give you an example:"
+      ]
+    },
+    {
+      "intent": "difference_between",
+      "patterns": [
+        "difference between ml and ai",
+        "difference between speed and velocity",
+        "how is mass different from weight",
+        "difference between virus and bacteria",
+        "difference between compiler and interpreter"
+      ],
+      "responses": [
+        "Here is the difference:",
+        "Let me break it down:"
+      ]
+    },
+    {
+      "intent": "advantages",
+      "patterns": [
+        "advantages of solar energy",
+        "what are the benefits of machine learning",
+        "why is recycling good",
+        "advantages of democracy",
+        "benefits of cloud computing"
+      ],
+      "responses": [
+        "Here are the advantages:",
+        "The key benefits are:"
+      ]
+    },
+    {
+      "intent": "disadvantages",
+      "patterns": [
+        "disadvantages of ai",
+        "what are the drawbacks of nuclear energy",
+        "disadvantages of fossil fuels",
+        "what are the limitations of machine learning",
+        "cons of online education"
+      ],
+      "responses": [
+        "Here are the disadvantages:",
+        "The limitations include:"
+      ]
+    },
+    {
+      "intent": "steps_or_process",
+      "patterns": [
+        "how does evaporation work",
+        "steps in water cycle",
+        "process of digestion",
+        "how does a computer boot",
+        "steps in solving a quadratic equation"
+      ],
+      "responses": [
+        "Here are the steps:",
+        "Let me explain the process:"
+      ]
+    },
+    {
+      "intent": "formula",
+      "patterns": [
+        "what is the formula for area of circle",
+        "formula for velocity",
+        "how to calculate density",
+        "pressure formula",
+        "formula for simple interest"
+      ],
+      "responses": [
+        "Here is the formula:",
+        "You can calculate it using:"
+      ]
+    },
+    {
+      "intent": "summarize",
+      "patterns": [
+        "summarize this text",
+        "give a summary of this paragraph",
+        "short summary please",
+        "make this shorter",
+        "summarize the following"
+      ],
+      "responses": [
+        "Here is the summary:",
+        "Summarized version:"
+      ]
+    },
+    {
+      "intent": "translate",
+      "patterns": [
+        "translate this to tamil",
+        "translate to english",
+        "i want translation",
+        "convert this sentence",
+        "translate this paragraph"
+      ],
+      "responses": [
+        "Here is the translation:",
+        "Translated text:"
+      ]
+    },
+    {
+      "intent": "code_snippet_request",
+      "patterns": [
+        "give python code for sorting",
+        "java program for factorial",
+        "write code to reverse a string",
+        "example code for ml model",
+        "show me c program for array"
+      ],
+      "responses": [
+        "Here is the code:",
+        "Here's a sample program:"
+      ]
+    },
+    {
+      "intent": "explain_code",
+      "patterns": [
+        "explain this python code",
+        "what does this program do",
+        "explain this snippet",
+        "tell me what this code means",
+        "meaning of this code block"
+      ],
+      "responses": [
+        "Here is the explanation:",
+        "Let me explain the code:"
+      ]
+    },
+    {
+      "intent": "fallback_unknown_query",
+      "patterns": [
+        "asdfgh",
+        "???",
+        "what???",
+        "i dont know",
+        "sfgdfgdf"
+      ],
+      "responses": [
+        "I'm not sure I understand that. Could you rephrase?",
+        "I couldn't identify your question. Can you ask it differently?"
       ]
     }
   ]
