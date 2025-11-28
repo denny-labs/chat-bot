@@ -17,13 +17,15 @@
     "mode":"default"
   },
   "labels":{
-
+    "entity_ruler":[
+      "SUBJECT"
+    ]
   },
   "pipeline":[
-
+    "entity_ruler"
   ],
   "components":[
-
+    "entity_ruler"
   ],
   "disabled":[
 
